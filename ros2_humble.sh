@@ -46,7 +46,7 @@ if [ "$VERSION" = "2" ]; then
   sudo apt install ros-humble-demo-nodes-cpp
 fi
 
-sudo apt install python3-colcon-common-extensions
+sudo apt install python3-colcon-common-extensions -y
 
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
